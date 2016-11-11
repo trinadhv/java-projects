@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 1.5.0_12-b04 (Sun Microsystems Inc.)
+Built-By: Andreas
+Main-Class: ch.ntb.usb.usbView.UsbView
+
+Name: common
+Implementation-Title: ch.ntb.usb
+Implementation-Version: 0.5.9 May 17 2009
+Implementation-Vendor: inf.ntb.ch
+

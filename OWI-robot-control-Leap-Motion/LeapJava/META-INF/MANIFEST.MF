@@ -1,0 +1,183 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+
+Name: com/leapmotion/leap/DeviceList.class
+SHA1-Digest: 0IJjFcKYzqm6rwiieJEqoz1VKYA=
+
+Name: com/leapmotion/leap/Finger.class
+SHA1-Digest: gfeUij/m0EKFgsty96nbMKj8+sU=
+
+Name: com/leapmotion/leap/ScreenTapGesture.class
+SHA1-Digest: U7Z7BwPCKCfh31aZBRhltCKQgqA=
+
+Name: com/leapmotion/leap/Controller$PolicyFlag.class
+SHA1-Digest: qKUF3Kz8WQmPX1TRREt6HpLyRzw=
+
+Name: com/leapmotion/leap/HandList$HandListIterator.class
+SHA1-Digest: N4gNPUFHNRzjFJsSe2eweCoqAes=
+
+Name: com/leapmotion/leap/PointableList.class
+SHA1-Digest: Ptzk0ju7kJUcDxScg2ER0kR1dZ4=
+
+Name: com/leapmotion/leap/Tool.class
+SHA1-Digest: u0PEA2sidfsTjLNVhlidBRlzXnA=
+
+Name: com/leapmotion/leap/FingerList$FingerListIterator.class
+SHA1-Digest: bveZFbncFDGFJrCg1sPchbWk0pQ=
+
+Name: com/leapmotion/leap/Pointable$Zone.class
+SHA1-Digest: SnG/KW5c//hBeOxlR3B682tdXjA=
+
+Name: com/leapmotion/leap/Pointable.class
+SHA1-Digest: ob++Ixd0g1KVKNTmrXdUvtNbkc8=
+
+Name: com/leapmotion/leap/Gesture$Type$SwigNext.class
+SHA1-Digest: VTwLY8SqiuYumbj0F28/ZNhmlVk=
+
+Name: com/leapmotion/leap/LeapJNI.class
+SHA1-Digest: jR/faVvXvb0A926H0MlR3uGUbdA=
+
+Name: com/leapmotion/leap/Vector.class
+SHA1-Digest: badVHg8kllIA8m8aeg6/2JdFGUs=
+
+Name: com/leapmotion/leap/Finger$Joint$SwigNext.class
+SHA1-Digest: XSz2v+ULG6CLoy/9y8AIMfLzNsY=
+
+Name: com/leapmotion/leap/ToolList$ToolListIterator.class
+SHA1-Digest: z9aF6C/qYNStd+KKehoIpRXS2KM=
+
+Name: com/leapmotion/leap/Image.class
+SHA1-Digest: x+t0Bb2sfdrUSDDTcdD4UTDiAb4=
+
+Name: com/leapmotion/leap/Screen.class
+SHA1-Digest: 3CJeHTBK/NMgu54Uh3io5NIwKGU=
+
+Name: com/leapmotion/leap/GestureList.class
+SHA1-Digest: bgXQH/Sc1ZD/2YcGx0dcVtCNdM4=
+
+Name: com/leapmotion/leap/ScreenList.class
+SHA1-Digest: ePbwjURMMdHHkKEAN/AEndZdKg0=
+
+Name: com/leapmotion/leap/Finger$Type.class
+SHA1-Digest: Ql6VrvU6qaUGZ7DArMtLa5RKx3c=
+
+Name: com/leapmotion/leap/Gesture$State.class
+SHA1-Digest: wDNNdBEvKBTKAV35zVvhEiIBNts=
+
+Name: com/leapmotion/leap/Leap.class
+SHA1-Digest: 4EcJmtzqoKORjVMUT2fnOR22eow=
+
+Name: com/leapmotion/leap/SwipeGesture.class
+SHA1-Digest: CoF2XaekO8qPUKBucDNleoE23Ug=
+
+Name: com/leapmotion/leap/Image$FormatType.class
+SHA1-Digest: ZH9rTi9dSjbk8gRWPPcO8K/43dA=
+
+Name: com/leapmotion/leap/Gesture$State$SwigNext.class
+SHA1-Digest: cEaGlZlqq2NsXXUqq5KhutjzAM0=
+
+Name: com/leapmotion/leap/CircleGesture.class
+SHA1-Digest: il0FHw3haQreDgLgTLGwY02zFQM=
+
+Name: com/leapmotion/leap/ImageList.class
+SHA1-Digest: aOkD6g9cF43Ntn2AqZLn+njnCcY=
+
+Name: com/leapmotion/leap/Image$FormatType$SwigNext.class
+SHA1-Digest: lbVdKjUhlBHrYDBDR0dhJVxuDu0=
+
+Name: com/leapmotion/leap/Device$Type.class
+SHA1-Digest: 3rM6AkVF/JhftzzMIdjS+5BE+Bk=
+
+Name: com/leapmotion/leap/Interface.class
+SHA1-Digest: +4Ma5//f1yCfJerlOxtkrYqaIyU=
+
+Name: com/leapmotion/leap/Config$ValueType$SwigNext.class
+SHA1-Digest: fSa1Ox2IH3ravkjPcuAqHyBM3yE=
+
+Name: com/leapmotion/leap/Device$Type$SwigNext.class
+SHA1-Digest: B74IQCtBS+uV38iRDC/S189+rpw=
+
+Name: com/leapmotion/leap/Frame.class
+SHA1-Digest: msabAD17Xm2va03wx7h9lq5sh40=
+
+Name: com/leapmotion/leap/Matrix.class
+SHA1-Digest: sO6xJkKFRP8tGaoxbZuyDQbPohU=
+
+Name: com/leapmotion/leap/Device.class
+SHA1-Digest: uOpASwwolO9UOIgLzsxh4fpRxPg=
+
+Name: com/leapmotion/leap/Gesture$Type.class
+SHA1-Digest: QI8gnul4XFIDa+C3XK4LqJe3rfE=
+
+Name: com/leapmotion/leap/Controller.class
+SHA1-Digest: /ok0jbbytqL2CzWZnTMVf5KU+KM=
+
+Name: com/leapmotion/leap/ToolList.class
+SHA1-Digest: U9k8dSDGBSZJ0e3B2NzUmKmrh8U=
+
+Name: com/leapmotion/leap/KeyTapGesture.class
+SHA1-Digest: QAMBvv4txAx6+cEO9pCFkpbaB4o=
+
+Name: com/leapmotion/leap/Finger$Type$SwigNext.class
+SHA1-Digest: aTk1iER+58nU1eTmBMXQ73wx9Os=
+
+Name: com/leapmotion/leap/Gesture.class
+SHA1-Digest: 6I9F1kF4OuxyujR1dvKsbCiRKNU=
+
+Name: com/leapmotion/leap/GestureList$GestureListIterator.class
+SHA1-Digest: cvseeh79DaSYKjtr7Waw4VEgU/E=
+
+Name: com/leapmotion/leap/Pointable$Zone$SwigNext.class
+SHA1-Digest: XffbsGbgHUPyrAz4lc+iH8xqImU=
+
+Name: com/leapmotion/leap/Config$ValueType.class
+SHA1-Digest: 70j0nfV69wnXCbQRbeB2VCZKx7Q=
+
+Name: com/leapmotion/leap/Finger$Joint.class
+SHA1-Digest: juERMiR+thUP6BhdGQ/krTBLSgg=
+
+Name: com/leapmotion/leap/Arm.class
+SHA1-Digest: yjJUp2tswGsm1LqAfHvCb1NfqA4=
+
+Name: com/leapmotion/leap/Hand.class
+SHA1-Digest: 9G/IE/ycBAY7CRZ0baEzDwJkJRA=
+
+Name: com/leapmotion/leap/PointableList$PointableListIterator.class
+SHA1-Digest: 1Cpe24vlIFLWA5Tayb4PJbPBj1s=
+
+Name: com/leapmotion/leap/Bone.class
+SHA1-Digest: 2HZ8ybal9fCrtClAHzirDiZJPzk=
+
+Name: com/leapmotion/leap/InteractionBox.class
+SHA1-Digest: rK6HVBwucMOFsQEwsm07QTZ7Iwg=
+
+Name: com/leapmotion/leap/ScreenList$ScreenListIterator.class
+SHA1-Digest: M/b41zfhz8VNJAVIvFK/TNvx3J4=
+
+Name: com/leapmotion/leap/Config.class
+SHA1-Digest: Xq119LlcIgNv760Pc/hySQzqeiQ=
+
+Name: com/leapmotion/leap/FingerList.class
+SHA1-Digest: ZbjelYdJAOX0wP60r0TYyWED2h8=
+
+Name: com/leapmotion/leap/Bone$Type$SwigNext.class
+SHA1-Digest: TcPEvs6mXWs487+MsYQ33SAc1fg=
+
+Name: com/leapmotion/leap/Bone$Type.class
+SHA1-Digest: LvNwn37cGSFmOTuQvcl080aIktE=
+
+Name: com/leapmotion/leap/Controller$PolicyFlag$SwigNext.class
+SHA1-Digest: ZfCierkkx6/1035YcpIva6mScYQ=
+
+Name: com/leapmotion/leap/ImageList$ImageListIterator.class
+SHA1-Digest: T4CFcs86h2gCHLXr4dVwpUeSbRU=
+
+Name: com/leapmotion/leap/HandList.class
+SHA1-Digest: tLN1ByaVxOl/WCBFaEQo+QT0iRc=
+
+Name: com/leapmotion/leap/Listener.class
+SHA1-Digest: RD51e5Q+0NQyfXMA73h9oYq0bTU=
+
+Name: com/leapmotion/leap/DeviceList$DeviceListIterator.class
+SHA1-Digest: qqrnpC6kE2rOk91WZReIl58CHq0=
+
