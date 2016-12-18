@@ -1,0 +1,14 @@
+drop table master_admin;
+drop table university_details;
+drop table admin_account;
+drop table user_account;
+drop table driver_account;
+drop table vehicles;
+drop table schedule;
+drop table week_sch;
+drop table weekend_sch;
+drop table spl_sch;
+drop table trip_details;
+drop table saved_trips;
+
+commit;

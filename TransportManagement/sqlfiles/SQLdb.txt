@@ -1,0 +1,49 @@
+-------------The following are the differnt operations performed ---------------------
+selecting shuttle time based on realistic time
+select schedule based on date selected 
+select schedule based on location
+select the driver and vehicle details
+select based on university
+select all the admin operations like vehicles,schedule,locations, times etc.
+select all driver operations like vehicledetails.
+select all the user operations
+select all university details 
+select all saved trips details
+edit saved trips
+edit schedule,time
+create saved trips
+admin manages every thing
+---------------------------------------------------------------------------------------
+
+
+select * from master_admin;
+select * from university_details;
+select * from admin_account;
+select * from user_account;
+select * from driver_account;
+select * from vehicles;
+select * from schedule;
+select * from week_sch;
+select * from weekend_sch;
+select * from spl_sch;
+select * from trip_details;
+select * from saved_trips;
+
+commit;
+
+select arr_time from week_sch where unv_code='01425' and location='Fairfield Town Center' order by arr_time asc;
+select arr_time,location from week_sch where unv_code='01425'order by location asc;
+update driver_account set unv_code='1425' where driver_id='driv124';
+select * from user_account where user_id LIKE 'sh%';
+delete from user_account where user_id='sh873564';
+select location,arr_time from weekend_sch where unv_code='1416' or location='Martie';
+select weekend_sch.location,weekend_sch.arr_time,unv_name from weekend_sch,university_details where university_details.unv_code='1416'and weekend_sch.unv_code='1416';
+select sech_name,location,arr_time from schedule,week_sch;
+select location,arr_time from weekend_sch where unv_code='1416' or location ='Martie' union select arr_time,location from week_sch where unv_code='01425'order by location asc;
+select distinct location from weekend_sch where unv_code='1425' or location ='Martie';
+select * from university_details where rownum<=3;
+select arr_time,location from week_sch where unv_code='01425'group by arr_time, location;
+select * from week_sch where unv_code in (select unv_code from university_details where unv_name='University Of Bridgeport');
+
+
+commit;

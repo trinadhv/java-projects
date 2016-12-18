@@ -1,0 +1,111 @@
+INSERT INTO master_admin VALUES('admin123','Admin','admin');
+
+INSERT INTO university_details VALUES(001416,'University Of Bridgeport',8003923582,5,'126 Park Ave, Bridgeport, CT 06604');
+INSERT INTO university_details VALUES(001425,'Sacred Heart University',2033717999,4,'5151 Park Ave,Bridgeport,CT 06825');
+INSERT INTO university_details VALUES(002457,'fairfield university',2032544000,4,'1073 N Benson Rd, Fairfield, CT 06824');
+
+INSERT INTO admin_account VALUES('adub123',01416,'ub@123');
+INSERT INTO admin_account VALUES('adsh123',01425,'sh@143');
+INSERT INTO admin_account VALUES('adff123',02457,'ff@133');
+
+INSERT INTO user_account VALUES('ub989787',01416,'Reddy@123');
+INSERT INTO user_account VALUES('ub989450',01416,'sandy@123');
+INSERT INTO user_account VALUES('ub989222',01416,'arun@123');
+INSERT INTO user_account VALUES('sh873013',01425,'surya@123');
+INSERT INTO user_account VALUES('sh873787',01425,'ranga@133');
+INSERT INTO user_account VALUES('sh873564',01425,'sirish@123');
+INSERT INTO user_account VALUES('ff787123',02457,'charan@123');
+INSERT INTO user_account VALUES('ff787785',02457,'niki@123');
+
+INSERT INTO driver_account VALUES('driv123',01416,'lusi@134');
+INSERT INTO driver_account VALUES('driv124',01416,'brett@134');
+INSERT INTO driver_account VALUES('driv125',01416,'jamal@134');
+INSERT INTO driver_account VALUES('driv126',01425,'michael@134');
+INSERT INTO driver_account VALUES('driv127',01425,'flores@134');
+INSERT INTO driver_account VALUES('driv128',01425,'richard@134');
+INSERT INTO driver_account VALUES('driv129',02457,'seth@134');
+INSERT INTO driver_account VALUES('driv122',02457,'kisha@134');
+
+INSERT INTO vehicles VALUES('ub123','ubvch1',01416);
+INSERT INTO vehicles VALUES('ub143','ubvch2',01416);
+INSERT INTO vehicles VALUES('ub167','ubvch3',01416);
+INSERT INTO vehicles VALUES('sh123','shvch1',01425);
+INSERT INTO vehicles VALUES('sh153','shvch3',01425);
+INSERT INTO vehicles VALUES('sh178','shvch3',01425);
+INSERT INTO vehicles VALUES('ff123','ubvch1',02457);
+INSERT INTO vehicles VALUES('ff343','ffvch2',02457);
+INSERT INTO vehicles VALUES('ff126','ffvch3',02457);
+
+INSERT INTO schedule VALUES('week_sch',1);
+INSERT INTO schedule VALUES('weekend_sch',2);
+INSERT INTO schedule VALUES('spl_sch',3);
+
+
+INSERT INTO week_sch VALUES(1,01416,'Bridgeport Bus Station (Water St)','7:30AM');
+INSERT INTO week_sch VALUES(1,01416,'Bridgeport Bus Station (Water St)','8:00AM');
+INSERT INTO week_sch VALUES(1,01416,'Bridgeport Bus Station (Water St)','8:30AM');
+INSERT INTO week_sch VALUES(1,01416,'Bridgeport Bus Station (Water St)','9:00AM');
+INSERT INTO week_sch VALUES(1,01416,'Park & University','7:51AM');
+INSERT INTO week_sch VALUES(1,01416,'Park & University','8:21AM');
+INSERT INTO week_sch VALUES(1,01416,'Park & University','8:51AM');
+INSERT INTO week_sch VALUES(1,01425,'Fairfield Town Center','7:00AM');
+INSERT INTO week_sch VALUES(1,01425,'Fairfield Town Center','8:00AM');
+INSERT INTO week_sch VALUES(1,01425,'Fairfield Town Center','9:00AM');
+INSERT INTO week_sch VALUES(1,01425,'Dolan Hall','7:50AM');
+INSERT INTO week_sch VALUES(1,01425,'Dolan Hall','8:50AM');
+INSERT INTO week_sch VALUES(1,01425,'Dolan Hall','9:50AM');
+INSERT INTO week_sch VALUES(1,02457,'Marriott','7:00AM');
+INSERT INTO week_sch VALUES(1,02457,'Marriott','8:00AM');
+INSERT INTO week_sch VALUES(1,02457,'Martie','7:35AM');
+INSERT INTO week_sch VALUES(1,02457,'Martie','8:35AM');
+
+
+INSERT INTO weekend_sch VALUES(2,001416,'Bridgeport Bus Station (Water St)','10:30AM');
+INSERT INTO weekend_sch VALUES(2,001416,'Bridgeport Bus Station (Water St)','11:00AM');
+INSERT INTO weekend_sch VALUES(2,001416,'Bridgeport Bus Station (Water St)','11:30AM');
+INSERT INTO weekend_sch VALUES(2,001416,'Bridgeport Bus Station (Water St)','12:00AM');
+INSERT INTO weekend_sch VALUES(2,001416,'Park & University','10:51AM');
+INSERT INTO weekend_sch VALUES(2,001416,'Park & University','11:31AM');
+INSERT INTO weekend_sch VALUES(2,001416,'Park & University','11:51AM');
+INSERT INTO weekend_sch VALUES(2,001425,'Fairfield Town Center','11:00AM');
+INSERT INTO weekend_sch VALUES(2,001425,'Fairfield Town Center','12:00AM');
+INSERT INTO weekend_sch VALUES(2,001425,'Fairfield Town Center','1:00PM');
+INSERT INTO weekend_sch VALUES(2,001425,'Dolan Hall','11:50AM');
+INSERT INTO weekend_sch VALUES(2,001425,'Dolan Hall','12:50AM');
+INSERT INTO weekend_sch VALUES(2,001425,'Dolan Hall','1:50PM');
+INSERT INTO weekend_sch VALUES(2,002457,'Marriott','9:00AM');
+INSERT INTO weekend_sch VALUES(2,002457,'Marriott','10:00AM');
+INSERT INTO weekend_sch VALUES(2,002457,'Martie','9:35AM');
+INSERT INTO weekend_sch VALUES(2,002457,'Martie','10:35AM');
+
+
+INSERT INTO spl_sch VALUES(3,001416,'Bridgeport bus Station (Water St)','11:00AM');
+INSERT INTO spl_sch VALUES(3,001416,'Bridgeport bus Station (Water St)','12:00AM');
+INSERT INTO spl_sch VALUES(3,001416,'Park & University','11:31AM');
+INSERT INTO spl_sch VALUES(3,001416,'Park & University','12:31AM');
+INSERT INTO spl_sch VALUES(3,001425,'Fairfield Town Center','12:00AM');
+INSERT INTO spl_sch VALUES(3,001425,'Fairfield Town Center','1:00PM');
+INSERT INTO spl_sch VALUES(3,001425,'Dolan Hall','12:50AM');
+INSERT INTO spl_sch VALUES(3,001425,'Dolan Hall','1:50PM');
+INSERT INTO spl_sch VALUES(3,002457,'Marriott','10:00AM');
+INSERT INTO spl_sch VALUES(3,002457,'Marriott','11:00AM');
+INSERT INTO spl_sch VALUES(3,002457,'Martie','10:35AM');
+INSERT INTO spl_sch VALUES(3,002457,'Martie','11:35AM');
+
+INSERT INTO trip_details VALUES('Bridgeport bus Station (Water St)','Park & University',01416);
+INSERT INTO trip_details VALUES('Fairfield Town Center','Dolan Hall',01425);
+INSERT INTO trip_details VALUES('Marriott','Martie',02457);
+
+INSERT INTO saved_trips VALUES('trip1','Bridgeport bus Station','Park & University',01416);
+INSERT INTO saved_trips VALUES('trip2','Bridgeport bus Station','Park & University',01416);
+INSERT INTO saved_trips VALUES('trip3','Bridgeport bus Station','Park & University',01416);
+INSERT INTO saved_trips VALUES('trip1','Fairfield Town Center','Dolan Hall',01425);
+INSERT INTO saved_trips VALUES('trip2','Fairfield Town Center','Dolan Hall',01425);
+INSERT INTO saved_trips VALUES('trip3','Fairfield Town Center','Dolan Hall',01425);
+INSERT INTO saved_trips VALUES('trip1','Marriott','Martie',02457);
+INSERT INTO saved_trips VALUES('trip2','Marriott','Martie',02457);
+INSERT INTO saved_trips VALUES('trip3','Marriott','Martie',02457);
+
+commit;
+
+
